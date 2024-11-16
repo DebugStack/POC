@@ -1,0 +1,15 @@
+D:\My Stuffs\My Projects\RnD\POC\CSharp\DataStructures\CSharpDataStructures\bin\Debug\net6.0\CSharpDataStructures.exe
+D:\My Stuffs\My Projects\RnD\POC\CSharp\DataStructures\CSharpDataStructures\bin\Debug\net6.0\CSharpDataStructures.deps.json
+D:\My Stuffs\My Projects\RnD\POC\CSharp\DataStructures\CSharpDataStructures\bin\Debug\net6.0\CSharpDataStructures.runtimeconfig.json
+D:\My Stuffs\My Projects\RnD\POC\CSharp\DataStructures\CSharpDataStructures\bin\Debug\net6.0\CSharpDataStructures.dll
+D:\My Stuffs\My Projects\RnD\POC\CSharp\DataStructures\CSharpDataStructures\bin\Debug\net6.0\CSharpDataStructures.pdb
+D:\My Stuffs\My Projects\RnD\POC\CSharp\DataStructures\CSharpDataStructures\obj\Debug\net6.0\CSharpDataStructures.GeneratedMSBuildEditorConfig.editorconfig
+D:\My Stuffs\My Projects\RnD\POC\CSharp\DataStructures\CSharpDataStructures\obj\Debug\net6.0\CSharpDataStructures.AssemblyInfoInputs.cache
+D:\My Stuffs\My Projects\RnD\POC\CSharp\DataStructures\CSharpDataStructures\obj\Debug\net6.0\CSharpDataStructures.AssemblyInfo.cs
+D:\My Stuffs\My Projects\RnD\POC\CSharp\DataStructures\CSharpDataStructures\obj\Debug\net6.0\CSharpDataStructures.csproj.CoreCompileInputs.cache
+D:\My Stuffs\My Projects\RnD\POC\CSharp\DataStructures\CSharpDataStructures\obj\Debug\net6.0\CSharpDataStructures.sourcelink.json
+D:\My Stuffs\My Projects\RnD\POC\CSharp\DataStructures\CSharpDataStructures\obj\Debug\net6.0\CSharpDataStructures.dll
+D:\My Stuffs\My Projects\RnD\POC\CSharp\DataStructures\CSharpDataStructures\obj\Debug\net6.0\refint\CSharpDataStructures.dll
+D:\My Stuffs\My Projects\RnD\POC\CSharp\DataStructures\CSharpDataStructures\obj\Debug\net6.0\CSharpDataStructures.pdb
+D:\My Stuffs\My Projects\RnD\POC\CSharp\DataStructures\CSharpDataStructures\obj\Debug\net6.0\CSharpDataStructures.genruntimeconfig.cache
+D:\My Stuffs\My Projects\RnD\POC\CSharp\DataStructures\CSharpDataStructures\obj\Debug\net6.0\ref\CSharpDataStructures.dll
