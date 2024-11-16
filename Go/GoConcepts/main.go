@@ -4,7 +4,7 @@ import (
 	dictionaryAndTuple "gopoc/data-structure"
 )
 
-// Using this calls making nessasary calls only
+// Using this for making nessasary calls only
 func main() {
 	println("Started making, wait...")
 
