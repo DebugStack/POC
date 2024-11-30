@@ -1,4 +1,5 @@
 ﻿using CSharpDataStructures.DataStructures;
+using CSharpDataStructures.Tips;
 
 internal class Program
 {
@@ -9,19 +10,38 @@ internal class Program
     private static void Main(string[] args)
     {
         #region Calling DictionaryAndTuple
-        var dictionaryAndTuple = new DictionaryAndTuple();
-        dictionaryAndTuple.TestDictionaryAndTuple();
+
+        //var dictionaryAndTuple = new DictionaryAndTuple();
+        //dictionaryAndTuple.TestDictionaryAndTuple();
+
         #endregion
 
         #region TupleAndNamedTuple
 
-        var info = new TupleAndNamedTuple();
+        //var info = new TupleAndNamedTuple();
 
-        var empLostInfo = info.GetEmpInfoUsingTuple();
-        var empId = empLostInfo.Item1; // This is lost id
+        //var empLostInfo = info.GetEmpInfoUsingTuple();
+        //var empId = empLostInfo.Item1; // This is lost id
 
-        var empInfo = info.GetEmpInfoUsingNamedTuple();
-        var empName = empInfo.name; // Sensible
+        //var empInfo = info.GetEmpInfoUsingNamedTuple();
+        //var empName = empInfo.name; // Sensible
+
+        #endregion
+
+        #region Yield Return
+
+        var yld = new YieldKeyword();
+
+        var res = yld.GetAllHeadCounts();
+
+        var infinity = yld.InfiniteCounter();
+
+        foreach (var i in infinity)
+        {
+            if (i > 5) break;
+            Console.WriteLine(i);
+        }
+
 
         #endregion
 
