@@ -9,6 +9,8 @@ internal class Program
     /// <param name="args"></param>
     private static void Main(string[] args)
     {
+        Console.WriteLine("Hello World!");
+        
         #region Calling DictionaryAndTuple
 
         //var dictionaryAndTuple = new DictionaryAndTuple();
@@ -30,17 +32,17 @@ internal class Program
 
         #region Yield Return
 
-        var yld = new YieldKeyword();
+        // var yld = new YieldKeyword();
 
-        var res = yld.GetAllHeadCounts();
+        // var res = yld.GetAllHeadCounts();
 
-        var infinity = yld.InfiniteCounter();
+        // var infinity = yld.InfiniteCounter();
 
-        foreach (var i in infinity)
-        {
-            if (i > 5) break;
-            Console.WriteLine(i);
-        }
+        // foreach (var i in infinity)
+        // {
+        //     if (i > 5) break;
+        //     Console.WriteLine(i);
+        // }
 
 
         #endregion
