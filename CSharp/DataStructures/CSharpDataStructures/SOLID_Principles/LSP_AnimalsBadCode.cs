@@ -21,7 +21,7 @@ public class Tiger : Animals
     }
     public override void Groom()
     {
-        throw new System.NotImplementedException();
+        throw new System.NotImplementedException(); // Voilation of LSP
     }
 }
 

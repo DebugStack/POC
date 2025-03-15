@@ -2,39 +2,46 @@
 interface IAnimals
 {
     void Eat();
+    void Walk();
 }
 interface ISocialAnimals
 {
-    void Eat();
     void Groom();
 }
 
-interface IWildAnimals
+interface IWildAnimal
 {
-    void Eat();
     void Hunt();
 }
 
-public class Tiger : IAnimals, IWildAnimals
+public class TheTiger : IAnimals, IWildAnimal
 {
     public void Eat()
     {
         Console.WriteLine("Tiger is eating");
     }
+    public void Walk()
+    {
+        Console.WriteLine("Tiger can walk");
+    }
     public void Hunt()
     {
         Console.WriteLine("Tiger is hunting");
-    }
+    } 
 }
 
-public class Dog : IAnimals, ISocialAnimals
+public class TheDog : IAnimals, ISocialAnimals
 {
     public void Eat()
     {
-        Console.WriteLine("Dog is eating");
+       Console.WriteLine("Dog is Eating");
+    }
+    public void Walk()
+    {
+        Console.WriteLine("Dog can walk");
     }
     public void Groom()
     {
-        Console.WriteLine("Dog is grooming");
+        Console.WriteLine("Dog an be groomed");
     }
 }
