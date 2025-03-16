@@ -1,8 +1,8 @@
 // BAD CODE - As per Liskov Substitution Principle, the derived class should be able to replace the base class without affecting the functionality of the program.
 // In the below code, the derived class Tiger is not able to replace the base class Animals as the Groom method is not implemented in the derived class.
 // Hence, the code is violating the Liskov Substitution Principle.
-using System.Reflection.Metadata.Ecma335;
 
+//Derived classes should behave properly when used in place of base classes.
 public abstract class Animals
 {
     public virtual void Eat()
