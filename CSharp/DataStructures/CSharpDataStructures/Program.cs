@@ -9,8 +9,8 @@ internal class Program
     /// <param name="args"></param>
     private static void Main(string[] args)
     {
-        Console.WriteLine("Hello World!");
-        
+
+
         #region Calling DictionaryAndTuple
 
         //var dictionaryAndTuple = new DictionaryAndTuple();
@@ -43,6 +43,23 @@ internal class Program
         //     if (i > 5) break;
         //     Console.WriteLine(i);
         // }
+
+
+        #endregion
+
+        #region LSP Calls
+
+
+        Console.WriteLine("Calling LSP Code");
+        var badCode = new Tiger();
+        badCode.Eat();
+        badCode.Walk();
+        badCode.Groom(); // We can't groom tiger , but this is available in the base class
+
+        var cleanCode = new TheTiger();
+        cleanCode.Eat();
+        cleanCode.Walk();
+        cleanCode.Hunt();
 
 
         #endregion

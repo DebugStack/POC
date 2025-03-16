@@ -4,17 +4,23 @@ interface IAnimals
     void Eat();
     void Walk();
 }
-interface ISocialAnimals
+public abstract class SocialAnimals
 {
-    void Groom();
+    public virtual void Groom()
+    {
+        Console.WriteLine("Only Social animals can be groomed in home");
+    }
 }
 
-interface IWildAnimal
+public abstract class WildAnimals
 {
-    void Hunt();
+    public virtual void Hunt()
+    {
+        Console.WriteLine("Only Wild animals can hunt");
+    }
 }
 
-public class TheTiger : IAnimals, IWildAnimal
+public class TheTiger : WildAnimals, IAnimals
 {
     public void Eat()
     {
@@ -24,23 +30,23 @@ public class TheTiger : IAnimals, IWildAnimal
     {
         Console.WriteLine("Tiger can walk");
     }
-    public void Hunt()
+    public override void Hunt()
     {
         Console.WriteLine("Tiger is hunting");
-    } 
+    }
 }
 
-public class TheDog : IAnimals, ISocialAnimals
+public class TheDog : SocialAnimals, IAnimals
 {
     public void Eat()
     {
-       Console.WriteLine("Dog is Eating");
+        Console.WriteLine("Dog is Eating");
     }
     public void Walk()
     {
         Console.WriteLine("Dog can walk");
     }
-    public void Groom()
+    public override void Groom()
     {
         Console.WriteLine("Dog an be groomed");
     }
