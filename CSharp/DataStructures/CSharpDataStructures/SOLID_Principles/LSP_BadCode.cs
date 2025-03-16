@@ -28,7 +28,7 @@ public class Tiger : Animals
     public override void Groom()
     {
         Console.WriteLine("Just log it, do not throw"); // It breaks another Solid Principle 
-        throw new System.NotImplementedException(); // Voilation of LSP
+        throw new System.NotImplementedException("i'm worried ! Tiger can't be groomed"); // Voilation of LSP
     }
 }
 

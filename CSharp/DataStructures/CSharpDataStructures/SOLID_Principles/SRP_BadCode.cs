@@ -14,4 +14,6 @@ internal class Employee
         // Save employee
         return true;
     }
+
+     // You may add, leaves, benefits, etc. here too & it will become a Acident prone zone!
 }

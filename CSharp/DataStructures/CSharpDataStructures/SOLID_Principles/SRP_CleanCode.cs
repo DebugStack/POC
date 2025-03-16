@@ -27,3 +27,5 @@ internal class SalaryCalculator
         return true;
     }
 }
+// For leaves and benefits, you can create separate classes and keep them separate.
+// This way, you can keep your code clean and maintainable.
